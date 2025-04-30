@@ -1,0 +1,182 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background: url('https://img.freepik.com/free-vector/medical-healthcare-blue-color_1017-26807.jpg') no-repeat center center/cover;
+    color: #ffffff;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: rgba(0, 40, 80, 0.7);
+    border-bottom: 2px solid #00d5ff;
+  }
+  
+  .logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+  }
+  
+  .logo-area h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #00d5ff;
+  }
+  
+  .logo-area span {
+    font-size: 13px;
+    color: #aad9ff;
+  }
+  
+  .top-options {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  select, .login-btn {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #00d5ff;
+    color: #002244;
+    transition: all 0.3s ease;
+  }
+  
+  select:hover, .login-btn:hover {
+    background-color: #00b7e6;
+  }
+  
+  .profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  .main-content {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+  }
+  
+  .main-content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-shadow: 2px 2px 10px #00d5ff;
+  }
+  
+  .main-content p {
+    font-size: 18px;
+    max-width: 600px;
+    margin-bottom: 40px;
+    color: #e0f6ff;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .start-btn, .how-btn {
+    padding: 16px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    background-color: #00d5ff;
+    color: #002244;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 12px #00d5ff;
+  }
+  
+  .start-btn:hover, .how-btn:hover {
+    background-color: #00b7e6;
+    transform: scale(1.05);
+    box-shadow: 0 0 18px #00d5ff;
+  }
+  
+  #how-it-works {
+    padding: 60px 30px;
+    background-color: rgba(0, 40, 80, 0.85);
+    text-align: center;
+  }
+  
+  #how-it-works h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #00d5ff;
+  }
+  
+  #how-it-works ol {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #e0f6ff;
+    text-align: left;
+    line-height: 1.8;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #eefbff;
+    background: rgba(0, 40, 80, 0.7);
+    border-top: 2px solid #00d5ff;
+  }
+  
+  @media (max-width: 600px) {
+    .main-content h1 {
+      font-size: 36px;
+    }
+  
+    .main-content p {
+      font-size: 16px;
+    }
+  
+    .button-group {
+      flex-direction: column;
+    }
+  
+    header {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .top-options {
+      flex-direction: column;
+    }
+  }
+  

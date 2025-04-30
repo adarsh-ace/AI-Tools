@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tools</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header style="background-color: #121824;">
+        <div class="logo">
+            <svg class="logo-img" viewBox="0 0 24 24" fill="var(--primary-color)">
+                <path
+                    d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4M12,10.5A1.5,1.5 0 0,1 13.5,12A1.5,1.5 0 0,1 12,13.5A1.5,1.5 0 0,1 10.5,12A1.5,1.5 0 0,1 12,10.5M7.5,10.5A1.5,1.5 0 0,1 9,12A1.5,1.5 0 0,1 7.5,13.5A1.5,1.5 0 0,1 6,12A1.5,1.5 0 0,1 7.5,10.5M16.5,10.5A1.5,1.5 0 0,1 18,12A1.5,1.5 0 0,1 16.5,13.5A1.5,1.5 0 0,1 15,12A1.5,1.5 0 0,1 16.5,10.5Z" />
+            </svg>
+            AI Tools
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#features">Tools</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- <div class="right-nav">
+            <div class="search-icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="var(--text-color)">
+                    <path
+                        d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+                </svg>
+            </div> -->
+            <div class="right-nav">
+                <form action="https://www.google.com/search" method="get" style="display: flex; align-items: center;">
+                    <input type="text" name="q" placeholder="Search Google" style="padding: 8px; border: 1px solid #ccc; border-radius: 4px; margin-right: 8px;">
+                    <button type="submit" style="background: none; border: none; cursor: pointer;">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="var(--text-color)">
+                            <path
+                                d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+            <label class="theme-toggle">
+                <input type="checkbox" id="theme-toggle">
+                <span class="toggle-slider"></span>
+            </label>
+            <a href="login.html" style="text-decoration: none; color: inherit;">
+            <button class="btn btn-primary">Login</button>
+        </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Evolving Minds: Transform Thoughts into Reality</h1>
+                <p>Explore top AI tools and learn how to use them effectively.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Explore AI Tools</button>
+                    <button class="btn btn-secondary">Resources</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="head.png" alt="AI profile visualization">
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>AI Tools</h2>
+            <p>The true promise of AI lies not in replacing humans, but in augmenting their abilities and unlocking
+                new opportunities.</p>
+
+            <div class="cards">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="grok12.png" alt="Grok">
+                    </div>
+
+                    <a href="https://grok.com/" style="text-decoration: none; color: inherit;">
+    
+                    
+                    <div class="card-content" >
+                        <h3>Conversational AI assistant</h3>
+                        <div class="subtitle">Grok</div>
+                        <p>Grok can answer questions, generate content, explain topics, summarize news, and assist with coding tasks (Make Research)</p>
+                    </div>
+                </a>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="napkin.png" alt="Napkin.ai" height="100">
+                    </div>
+                    <a href="https://www.napkin.ai/" style="text-decoration: none; color: inherit;">
+                    <div class="card-content">
+                        <h3>Visual AI tool</h3>
+                        <div class="subtitle">Napkin.Ai</div>
+                        <p>Napkin.ai is used to quickly turn text into professional visuals like charts, diagrams, and infographics for presentations(Mind Maps)</p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="gamma-1.png" alt="Gamma" width="100">
+                    </div>
+                    <a href="https://gamma.app/" style="text-decoration: none; color: inherit;">
+                    <div class="card-content">
+                        <h3>AI presentation creator</h3>
+                        <div class="subtitle">Gamma</div>
+                        <p>Quickly design beautiful, interactive presentations and websites from text with no design skills needed(For PPT and More)</p>
+                    </div>
+                
+                </a>
+                </div>
+            
+            </div>
+        </section>
+
+
+        <section class="job" >
+            <h2>AI Tools</h2>
+            <p>The true promise of AI lies not in replacing humans, but in augmenting their abilities and unlocking
+                new opportunities.</p>
+
+            <div class="cards">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="chatgpt1.png" alt="chatgpt1">
+                    </div>
+                    <a href="https://chatgpt.com/" style="text-decoration: none; color: inherit;">
+                    <div class="card-content">
+                        <h3>Content Creating AI assistant</h3>
+                        <div class="subtitle">Chat-GPT</div>
+                        <p>ChatGPT is primarily used for natural language understanding and generation, making it valuable for tasks like content creation, chatbot development, language translation, and more.</p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="julius.png" alt="julius" >
+                    </div>
+                    <a href="https://julius.ai/" style="text-decoration: none; color: inherit;">
+                    <div class="card-content">
+                        <h3>AI Data Analyst Assistant</h3>
+                        <div class="subtitle">Julius AI</div>
+                        <p>Julius AI is an AI-powered assistant designed for data analysis, allowing users to perform statistical analysis, data science, and computations without requiring coding skills.</p>
+                    </div>
+                </a>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="genspark.png" alt="genspark">
+                    </div>
+                    <a href="https://www.genspark.ai/" style="text-decoration: none; color: inherit;">
+                    <div class="card-content">
+                        <h3>Multi Agent System for Deep research</h3>
+                        <div class="subtitle">GenSpark AI</div>
+                        <p>Genspark AI is an innovative AI-driven research platform that functions as an "AI Agent Engine," designed to enhance web search by generating custom pages called Sparkpages in real-time based on user queries.</p>
+                    </div>
+                </a>
+                </div>
+            </div>
+            
+        </section>
+        
+        <section class="features2">
+            <h2>AI Tools</h2>
+            <p>The true promise of AI lies not in replacing humans, but in augmenting their abilities and unlocking
+                new opportunities.</p>
+
+            <div class="cards">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="libgen.png" alt="libgen">
+                    </div>
+                    <a href="https://libgen.is/" style="text-decoration: none; color: inherit;">
+                    <div class="card-content">
+                        <h3>Ebooks Downloader Tool</h3>
+                        <div class="subtitle">Libgen</div>
+                        <p>A digital library that provides access to millions of books, articles, and academic papers, many of which are pirated. It serves as a resource for users seeking free access to literature and research.</p>
+                    </div>
+                </a>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="leonardo.png" alt="leonardo" >
+                    </div>
+                    <a href="https://leonardo.ai/" style="text-decoration: none; color: inherit;">
+                    <div class="card-content">
+                        <h3>Image Generator Tool</h3>
+                        <div class="subtitle">Leonardo AI</div>
+                        <p>Leonardo AI is a versatile image generator initially designed for creating gaming assets, now expanded into a comprehensive AI content creation platform. It allows users to generate art, images, and videos</p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="cursor.png" alt="cursor" height="100px">
+                    </div>
+                    <a href="https://www.cursor.com/" style="text-decoration: none; color: inherit;">
+                    <div class="card-content">
+                        <h3>Advanced AI Code Editor</h3>
+                        <div class="subtitle">Cursor AI</div>
+                        <p> Cursor AI understands the context of your code and offers real-time suggestions for improvements, making coding faster and more efficient.
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- <footer>
+            <section class="features" >
+                
+                
+                    <div style="height: 200px;">
+                        
+                
+                </div>
+            </section>
+        </footer> -->
+
+        <footer id="footer" class="footer">
+            <div class="footer-container">
+              <div class="footer-contact">
+                <h3>Contact</h3>
+                <ul>
+                  <li><strong>Email:</strong> <a href="adarshsinght56@gmail.com">Mail Adarsh</a></li>
+                  <li><strong>Email:</strong> <a href="dasherthedeadly@gmail.com">Mail Siraj</a></li>
+                  <li><strong>Instagram:</strong> <a href="https://www.instagram.com/ace_3_6_0?igsh=NmNxd3Bpem82bWp4" target="_blank">@Ace</a></li>
+                  <li><strong>Instagram:</strong> <a href="https://www.instagram.com/siraj_.432?igsh=MWZmbno0dHg5Z2c3Nw==" target="_blank">@Siraj</a></li>
+                  <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/adarsh-kumar-singh-3685ab359?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">linkedin.com/in/Ace</a></li>
+                  <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/siraj-sharif-1431492bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">linkedin.com/in/Siraj</a></li>
+                  <li><strong>Address:</strong> 123 Main Street, Chandigarh, India</li>
+                </ul>
+              </div>
+          
+              <div class="footer-bottom">
+                <p>&copy; 2025 SSAI. All rights reserved.</p>
+              </div>
+            </div>
+          </footer>
+          
+
+
+    </main>
+
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('theme-toggle');
+
+        // Check for saved theme preference
+        if (localStorage.getItem('theme') === 'light') {
+            document.body.classList.add('light-theme');
+            themeToggle.checked = true;
+        }
+
+        // Toggle theme when button is clicked
+        themeToggle.addEventListener('change', function () {
+            if (this.checked) {
+                document.body.classList.add('light-theme');
+                localStorage.setItem('theme', 'light');
+            } else {
+                document.body.classList.remove('light-theme');
+                localStorage.setItem('theme', 'dark');
+            }
+        });
+    </script>
+</body>
+
+</html>
