@@ -1,5 +1,5 @@
 # AI-Tools
-This is AI tools Website where one can access all the needy AI tool.
+This is AI tools Website where one can access all the needy AI tool
 
 
 
